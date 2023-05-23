@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(home: Center(child: Text("Hello World"))));
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("I AM RICH"), // Added 'const' keyword here
+        ),
+      ),
+    ),
+  );
 }
-
