@@ -5,7 +5,10 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("I AM RICH"), // Added 'const' keyword here
+          title: Center(
+            child: Text("I AM RICH"),
+          ),
+          backgroundColor: Colors.blueGrey[900],// Added 'const' keyword here
         ),
       ),
     ),
